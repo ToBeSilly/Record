@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:textSize="25sp"
+    android:orientation="vertical"
+    android:background="#B2EAD6">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="#272525" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#100E0E"
+        android:hint="请输入标题"
+        android:textColor="#151414"
+        android:textStyle="italic" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textColor="#272525"/>
+
+    <EditText android:id="@+id/etDate"
+        android:hint="请双击选择日期"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#100E0E"
+        android:textColor="#151414"
+        android:textStyle="italic"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#151414"
+        android:text="时间"/>
+    <EditText android:id="@+id/etTime"
+        android:hint="请双击选择时间"
+        android:backgroundTint="#100E0E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#151414"
+        android:textStyle="italic"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:textColor="#151414"/>
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#100E0E"
+        android:hint="请输入作者"
+        android:textColor="#171616"
+        android:textStyle="italic" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        android:textColor="#151414"/>
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:backgroundTint="#100E0E"
+        android:hint="请输入内容"
+        android:textColor="#171616"
+        android:textStyle="italic" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photo"
+        android:textColor="#151414"/>
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/b"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+
+
+    <Button android:id="@+id/btnSave"
+        android:text="保存"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

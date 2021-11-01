@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        app:tabIndicatorColor="#F40A0A"
+        app:tabSelectedTextColor="#F40A0A"
+        app:tabTextColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#F1C0C0"
+        android:src="@drawable/add"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <!--    <ImageButton-->
+<!--        android:id="@+id/btnAdd"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:alpha="70"-->
+<!--        android:backgroundTint="#0D7DED"-->
+<!--        android:layout_marginTop="600dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:src="@drawable/add"-->
+<!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/btnAdd"-->
+<!--        android:layout_width="76dp"-->
+<!--        android:layout_height="101dp"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:backgroundTint="#17ACDA"-->
+<!--        app:srcCompat="@drawable/add" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

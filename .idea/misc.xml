@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_SDK/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.19791666666666666" />
+        <entry key="..\:/Record/app/src/main/res/drawable/add.xml" value="0.25729166666666664" />
+        <entry key="..\:/Record/app/src/main/res/drawable/alarm.xml" value="0.13177083333333334" />
+        <entry key="..\:/Record/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20572916666666666" />
+        <entry key="..\:/Record/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/Record/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Record/app/src/main/res/layout/activity_menu.xml" value="0.19375" />
+        <entry key="..\:/Record/app/src/main/res/layout/activity_one.xml" value="0.2" />
+        <entry key="..\:/Record/app/src/main/res/layout/activity_one2.xml" value="0.18697916666666667" />
+        <entry key="..\:/Record/app/src/main/res/layout/add_bwl.xml" value="0.264" />
+        <entry key="..\:/Record/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/Record/app/src/main/res/layout/fragment_blank2.xml" value="0.115625" />
+        <entry key="..\:/Record/app/src/main/res/layout/fragment_blank3.xml" value="0.115625" />
+        <entry key="..\:/Record/app/src/main/res/layout/fragment_blank4.xml" value="0.18541666666666667" />
+        <entry key="..\:/Record/app/src/main/res/layout/list_item_bwl.xml" value="0.12083333333333333" />
+        <entry key="..\:/Record/app/src/main/res/layout/strings.xml" value="0.1109375" />
+        <entry key="..\:/Record/app/src/main/res/layout/test.xml" value="0.24114583333333334" />
+        <entry key="..\:/Record/app/src/main/res/layout/view_four.xml" value="0.24114583333333334" />
+        <entry key="..\:/Record/app/src/main/res/layout/view_one.xml" value="0.1" />
+        <entry key="..\:/Record/app/src/main/res/layout/view_three.xml" value="0.24114583333333334" />
+        <entry key="..\:/Record/app/src/main/res/layout/view_two.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
